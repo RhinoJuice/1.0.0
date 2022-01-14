@@ -1,0 +1,61 @@
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+  }
+  *,
+  *::before,
+  *::after{
+    box-sizing: border-box;
+  }
+
+.success{
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to left, rgb(127, 89, 197), rgb(223, 140, 64));
+  background-position: left;
+  background-size: 400%;
+  animation: succes_bg 30s ease infinite alternate;
+}
+@keyframes succes_bg {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+.content{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo{
+  width: 400px;
+  height: 85px;
+}
+
+.text{
+  padding-top: 50px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Poppins', 'Century Gothic';
+}
+#lobster{
+  font-family: 'Lobster', 'Century Gothic';
+  font-weight: lighter;
+}
+
+.return{
+  margin-top: 20px;
+  text-decoration: underline;
+  color: black;
+}
