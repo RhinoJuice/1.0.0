@@ -260,14 +260,13 @@ section{
     transition: .75s ease;
   } 
   /*------------------------*/
-  .nv, .v{
+  .nv, .v, .ip{
     width: 100%;
     height: 3rem;
     font-size: 1.25rem;
     position: absolute;
     top: 0;
     padding: 10px;
-    color: red;
     background: black;
     transition: .3s ease;
     transition-delay: 1s;
@@ -275,6 +274,12 @@ section{
   }
   .v{
     color: rgb(107, 255, 87);
+  }
+  .nv{
+    color: red;
+  }
+  .ip{
+    color: yellow;
   }
   .cardFront:hover .nv,
   .cardFront:hover .v{
