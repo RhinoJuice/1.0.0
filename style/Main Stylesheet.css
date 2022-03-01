@@ -287,7 +287,8 @@ section{
     color: yellow;
   }
   .cardFront:hover .nv,
-  .cardFront:hover .v{
+  .cardFront:hover .v,
+  .cardFront:hover .ip{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
     transition: .2s;
