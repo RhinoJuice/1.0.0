@@ -294,7 +294,8 @@ section{
     transition: .2s;
   }
   .card:focus .nv,
-  .card:focus .v{
+  .card:focus .v,
+  .card:focus .ip{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
     transition: .2s;
