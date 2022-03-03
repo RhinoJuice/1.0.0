@@ -265,7 +265,7 @@ section{
     transition: .75s ease;
   } 
   /*------------------------*/
-  .av, 
+  .nv, 
   .ip{
     width: 100%;
     height: 3rem;
@@ -278,22 +278,22 @@ section{
     transition-delay: 1s;
     z-index: 1000;
   }
-  .cardFront .v{
+  .v{
     color: rgb(107, 255, 87);
   }
-  .cardFront .av{
+  .nv{
     color: red;
   }
-  .cardFront .ip{
+  .ip{
     color: yellow;
   }
-  .cardFront:hover .av,
+  .cardFront:hover .nv,
   .cardFront:hover .ip{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
     transition: .2s;
   }
-  .card:focus .av,
+  .card:focus .nhv,
   .card:focus .ip{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
