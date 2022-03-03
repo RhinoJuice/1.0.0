@@ -265,7 +265,7 @@ section{
     transition: .75s ease;
   } 
   /*------------------------*/
-  .nv, .v, .ip{
+  .av, .v, .ip{
     width: 100%;
     height: 3rem;
     font-size: 1.25rem;
@@ -280,20 +280,20 @@ section{
   .v{
     color: rgb(107, 255, 87);
   }
-  .nv{
+  .av{
     color: red;
   }
   .ip{
     color: yellow;
   }
-  .cardFront:hover .nv,
+  .cardFront:hover .av,
   .cardFront:hover .v,
   .cardFront:hover .ip{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
     transition: .2s;
   }
-  .card:focus .nv,
+  .card:focus .av,
   .card:focus .v,
   .card:focus .ip{
     background: rgb(28, 28, 28);
