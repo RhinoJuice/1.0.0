@@ -278,9 +278,6 @@ section{
     transition-delay: 1s;
     z-index: 1000;
   }
-  .v{
-    color: rgb(107, 255, 87);
-  }
   .nv{
     color: red;
   }
@@ -293,7 +290,7 @@ section{
     transform: translateY(-3rem);
     transition: .2s;
   }
-  .card:focus .nhv,
+  .card:focus .nv,
   .card:focus .ip{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
