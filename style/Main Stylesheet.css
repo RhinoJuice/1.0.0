@@ -279,13 +279,13 @@ section{
     transition-delay: 1s;
     z-index: 1000;
   }
-  .card .v{
+  .cardFront .v{
     color: rgb(107, 255, 87);
   }
-  .card .av{
+  .cardFront .av{
     color: red;
   }
-  .card .ip{
+  .cardFront .ip{
     color: yellow;
   }
   .cardFront:hover .av,
