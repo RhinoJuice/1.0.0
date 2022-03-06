@@ -28,7 +28,7 @@
 
 /*-----------------------------------------------------------------------------*/
   body {
-    background: black;
+    background: rgb(28, 28, 28);
     height: 100%;
     overflow-x: hidden;
   }
