@@ -28,7 +28,7 @@
 
 /*-----------------------------------------------------------------------------*/
   body {
-    background: rgb(192, 187, 156);
+    background: black;
     height: 100%;
     overflow-x: hidden;
   }
@@ -837,6 +837,7 @@ textarea{
   align-items: center;
   text-align: center;
   padding: 40px;
+  color: white;
 }
 #big{
   font-size: 1.25em;
