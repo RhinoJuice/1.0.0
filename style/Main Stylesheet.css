@@ -837,8 +837,8 @@ textarea{
   align-items: center;
   text-align: center;
   padding: 40px;
-  color: white;
-  background: transparent;
+  color: black;
+  background: rgb(192, 187, 156);
 }
 #big{
   font-size: 1.25em;
