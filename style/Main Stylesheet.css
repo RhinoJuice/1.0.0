@@ -148,10 +148,10 @@
 
 .infos h1{
   margin-bottom: 20px;
-  box-shadow: 
-   .25rem .25rem 1rem rgb(63, 161, 100),
-   .5rem .5rem 1rem rgb(161, 86, 63),
-   .75rem .75rem 1rem rgb(92, 63, 161);
+  text-shadow: 
+   .25rem .25rem 1rem 0 rgb(63, 161, 100),
+   .5rem .5rem 1rem 0 rgb(161, 86, 63),
+   .75rem .75rem 1rem 0 rgb(92, 63, 161);
 } 
 
 .news{
