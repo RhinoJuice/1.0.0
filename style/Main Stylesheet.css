@@ -742,6 +742,7 @@ section{
 }
 
 .gallery{
+  padding: 20px;
   margin-top: 3rem;
   display: grid;
   align-items: center;
