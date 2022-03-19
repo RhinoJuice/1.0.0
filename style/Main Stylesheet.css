@@ -743,7 +743,7 @@ section{
 
 .gallery{
   padding: 20px;
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
