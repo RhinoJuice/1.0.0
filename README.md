@@ -1,1 +1,1 @@
-# 1.0.0
+RhinoJuice ist ein Schülerunternehmen des F. F. Runge-Gymnasiums, unterstützt von der Firma JUNIOR. Mehr erfährst du auf unserer Website (v.1.0.0)

@@ -52,12 +52,11 @@
     width: 350px;
   }
   .preloader-finish{
-    transition: .5s ease;
+    transition: .8s ease;
     transition-delay: 0s;
-    opacity: 0;
     pointer-events: none;
     z-index: 1;
-    transform: translateY(-100vh);
+    transform: translateY(100vh);
   }
 /*-----------------------------------------------------------------------------*/
   .page-content{
@@ -183,6 +182,12 @@
   top: 1rem;
   color: rgb(0, 0, 0);
 }
+.neu{
+  position: absolute;
+  top: 1rem;
+  font-size: 2.5rem;
+  color: rgb(81, 255, 0);
+}
 
 section{
   position: relative;
@@ -193,14 +198,14 @@ section{
   display: flex;
   width: 25vw;
   height: 100vh;
-  min-height: 40rem;
+  min-height: 45rem;
   perspective: 1500px;
 }
 
 @media screen and (max-width: 1920px){
 
   .product-overview{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
@@ -214,23 +219,29 @@ section{
     align-items: center;
     display: flex;
     width: 25vw;
-    height: 100vh;
+    height: 100%;
   }
 }
 
-
-
-.Wintertraum{
+.A-Bi{
   color: #000;
-  background: linear-gradient(to left, rgb(177, 104, 36), rgb(177, 104, 36),rgb(135, 138, 92));
+  background: linear-gradient(to left, rgb(112, 143, 62),rgb(134, 93, 189));
 }
 .Vitapu{
   color: #000;
-  background: linear-gradient(to left, rgb(153, 88, 72), rgb(153, 88, 72), rgb(177, 104, 36));
+  background: linear-gradient(to left, rgb(216, 158, 0), rgb(153, 88, 72), rgb(112, 143, 62));
+}
+.Orange{
+  color: #000;
+  background: linear-gradient(to left, rgb(216, 158, 0),rgb(216, 158, 0));
+}
+.Wintertraum{
+  color: #000;
+  background: linear-gradient(to left, rgb(160, 183, 194),rgb(160, 183, 194), rgb(216, 158, 0));
 }
 .Apple{
   color: #000;
-  background: linear-gradient(to left, rgb(135, 138, 92), rgb(153, 88, 72));
+  background: linear-gradient(to left, rgb(135, 138, 92), rgb(153, 88, 72), rgb(160, 183, 194));
 }
 .Pear{
   color: #000;
@@ -240,16 +251,13 @@ section{
   color: #000;
   background: linear-gradient(to left, rgb(189, 138, 43),rgb(135, 138, 92));
 }
-.Orange{
-  color: #000;
-  background: linear-gradient(to left, rgb(216, 158, 0),rgb(189, 138, 43));
-}
+
 /*------------------------*/
   .card{
     min-height: 35rem;
     height: 60%;
     width: 80%;
-    max-width: 40rem;
+    max-width: 30rem;
     position: absolute;
     transform-style: preserve-3d;
     transition: .75s ease;
@@ -266,7 +274,7 @@ section{
   } 
   /*------------------------*/
   .nv, 
-  .ip, 
+  .ip,
   .v{
     width: 100%;
     height: 3rem;
@@ -286,8 +294,8 @@ section{
     color: yellow;
   }
   .v{
-   color: green;  
-  } 
+    color: green;
+  }
   .cardFront:hover .nv,
   .cardFront:hover .ip{
     background: rgb(28, 28, 28);
@@ -429,7 +437,7 @@ section{
     width: 130px;
     height: 300px;
     margin-bottom: 25px;
-    margin-top: 3rem;
+    margin-top: 5rem;
   } 
 
 /*------------------------*/
@@ -733,6 +741,19 @@ section{
   padding: 10px;
 }
 
+.gallery{
+  margin-top: 3rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img{
+  width: 100%;
+  border-radius: 10px;
+}
+
 
 /*-----------------------------------------------------------------------------*/
 
@@ -759,7 +780,7 @@ section{
 /*-----------------------------------------------------------------------------*/
 
 .contact{
-  min-height: 100vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -811,7 +832,7 @@ textarea{
   color: rgb(255, 255, 255);
   border-radius: 35px;
   padding: 20px;
-  max-width: 75rem;
+  max-width: 80rem;
   font-size: 1.25rem;
   font-family: 'Poppins';
 }
@@ -820,12 +841,17 @@ textarea{
   color: white;
   text-decoration: underline;
 }
+.link2{
+  color: rgb(36, 65, 102);
+  text-decoration: underline;
+}
+
 .heading{
   position: sticky;
-  top: 5rem;
+  top: 4.5rem;
   width: 100%;
   background: rgba(0, 0, 0, 0.75);
-  padding: 5px;
+  padding: 2px;
   border-radius: 100vw;
   z-index: 1;
   -webkit-backdrop-filter: blur(5px);
@@ -841,12 +867,11 @@ textarea{
   align-items: center;
   text-align: center;
   padding: 40px;
-  color: black;
-  background: rgb(192, 187, 156);
+  line-height: 2;
 }
 #big{
   font-size: 1.25em;
-  margin: 30px;
+  margin-top: 30px;
 }
 #enjoy{
   font-family: 'Lobster', 'Amethyst';
