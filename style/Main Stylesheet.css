@@ -585,8 +585,9 @@ section{
       object-position: top;
       width: 90px;
       height: 200px;
-      margin-bottom: 15px;
-    } 
+      margin-bottom: 5px;
+      margin-top: 1.5rem
+    }
    }
 
 /*-----------------------------------------------------------------------------*/
