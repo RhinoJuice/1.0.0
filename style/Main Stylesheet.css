@@ -363,6 +363,7 @@ section{
     align-items: center;
     justify-content: center;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     transition: .5s ease;
     flex-direction: column;
     text-align: center;
@@ -448,7 +449,8 @@ section{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    backface-visibility: hidden;    
+    backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
     pointer-events: all;
     outline: none;
     border: none;
