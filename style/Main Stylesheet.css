@@ -431,7 +431,6 @@ section{
   /*------------------------*/
   .cardFront h1{
     padding: 20px;
-    translate: transformZ(20px);
   }
   .cardFront img{
     object-fit: cover;
@@ -440,7 +439,6 @@ section{
     height: 300px;
     margin-bottom: 25px;
     margin-top: 3rem;
-    transform: translateZ(20px);
   } 
 
 /*------------------------*/
