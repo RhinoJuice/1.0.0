@@ -439,6 +439,7 @@ section{
     height: 300px;
     margin-bottom: 25px;
     margin-top: 3rem;
+    transform: translateZ(-10px);
   } 
 
 /*------------------------*/
