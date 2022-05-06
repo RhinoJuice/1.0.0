@@ -297,13 +297,15 @@ section{
     color: green;
   }
   .cardFront:hover .nv,
-  .cardFront:hover .ip{
+  .cardFront:hover .ip
+  .cardFront:hover .v{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
     transition: .2s;
   }
   .card:focus .nv,
-  .card:focus .ip{
+  .card:focus .ip
+  .card:focus .v{
     background: rgb(28, 28, 28);
     transform: translateY(-3rem);
     transition: .2s;
